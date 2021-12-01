@@ -1,0 +1,201 @@
+/* reset css */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.navbar {
+	background-color:#1C2942;
+	box-shadow: 0px 5px 10px #0e1522;
+	opacity: 0.95;
+	position: fixed;
+	z-index:10;
+	padding-right: 62vw;
+	
+}
+
+
+
+.margin-navbar {
+	margin-left: 1vw;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Diplomata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Diplomata&display=swap');
+
+
+
+html {
+	font-family: 'Diplomata';
+	font-size: 0.55cm;	
+}
+
+.body-site {
+	height: 125vh;
+		
+}
+
+.body-content {
+	display: flex;
+	justify-content: center;
+	height: 60vh;
+	padding-top: 2vw;	
+}
+
+.card {
+
+	width: 80vh;
+	background-color: #1C2942;
+	height: 80vh;
+
+}
+
+.body-center p {
+	font-size: 4vh;
+	text-align: center;
+}
+
+.body-center p:first-child {
+	font-size: 5.25vh;
+	text-align: center;
+}
+
+.legales-mentions {
+	margin: 3vw;
+	margin-top: 1vw;
+}
+
+h2 {
+	font-family: 'Diplomata';
+	font-weight: bolder;
+	font-size: 0.7cm;
+	color: rgb(255, 255, 255);
+}
+
+.body-text-homepage {
+	padding: 3vw;
+	padding-top: 1vw;
+		
+}
+
+.body-text-homepage-frame {
+	background-color: #1C2942;
+}
+
+.body-card {
+	padding-bottom: 2vh;
+}
+
+body {
+	background: url(../img/fond.png);
+	background-repeat: repeat;
+	background-size: cover;
+	
+}
+
+p {
+	color: rgb(226, 226, 226);
+}
+
+h1 {
+	font-size: 1cm;
+	font-weight: bolder;
+}
+
+
+
+
+
+.article-frame {
+	
+	margin: 1cm;
+	margin-top: 0;
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+.txt-article {
+	
+	margin: 0cm;
+	margin-bottom: 0;
+	height: 30vh;
+	width: 80vw;
+	
+}
+
+.question-article {
+	
+	margin: 0.5cm;
+	margin-top: 0;
+	height: 30vh;
+	width: 80vw;
+	padding-bottom: 10cm;
+	
+}
+
+.article-button {
+	
+	margin: 1cm;
+	margin-top: 0cm;
+}
+
+.txt-content {
+	
+	height: 100%;
+	margin: 0.5cm;
+}
+
+.bio {
+	display: flex;
+	flex-direction: row;
+}
